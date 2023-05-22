@@ -1,0 +1,18 @@
+.pgnButton {
+  width: 40px;
+  height: 40px;
+  margin: 2px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  border: 1px solid gray;
+}
+.pgnButtonCurrent {
+  width: 40px;
+  height: 40px;
+  margin: 2px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  border-radius: 4px;
+}

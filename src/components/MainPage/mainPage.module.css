@@ -1,0 +1,66 @@
+.Container {
+  width: 60%;
+  height: 100vh;
+  padding: 20px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.containerButtons {
+  width: 200px;
+  margin: auto;
+}
+
+.addButton {
+  width: 100px;
+  height: 32px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: rgb(24, 158, 24);
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.favoriteBtn {
+  background-color: red;
+  border: none;
+  width: 65px;
+  height: 35px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.disabledBtn {
+  background-color: black;
+  border: none;
+  width: 65px;
+  height: 35px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #007bff;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  animation: spinner 0.8s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.pagination {
+  position: absolute;
+  bottom: 0;
+}

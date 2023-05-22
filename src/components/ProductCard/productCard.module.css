@@ -1,0 +1,45 @@
+.Card {
+  width: 250px;
+  height: 370px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 15px;
+  background: center no-repeat;
+  background-size: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Card .title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Card .price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.Card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.Card {
+  animation: fadeIn 0.5s ease;
+}
